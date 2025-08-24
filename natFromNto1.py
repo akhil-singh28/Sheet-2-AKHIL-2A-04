@@ -1,4 +1,5 @@
-N = int(input("Enter a natural number: "))
+num = int(input("Enter a natural number: "))
 
-for i in range(N, 0, -1):
-    print(i, end=' ')
+while(num>=1):
+    print(num, end=" ")
+    num=num-1
